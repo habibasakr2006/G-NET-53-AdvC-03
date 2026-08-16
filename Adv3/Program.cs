@@ -165,70 +165,70 @@ namespace Adv3
 
             #region Exercise 3
 
-            Dictionary<string, string> phoneBook = new Dictionary<string, string>();
+            //Dictionary<string, string> phoneBook = new Dictionary<string, string>();
 
-            phoneBook.Add("Ahmed", "01011111111");
-            phoneBook.Add("Sara", "01122222222");
-            phoneBook.Add("Ali", "01233333333");
-            phoneBook.Add("Mona", "01544444444");
+            //phoneBook.Add("Ahmed", "01011111111");
+            //phoneBook.Add("Sara", "01122222222");
+            //phoneBook.Add("Ali", "01233333333");
+            //phoneBook.Add("Mona", "01544444444");
 
-            Console.WriteLine("Exercise 3: Phone Book");
+            //Console.WriteLine("Exercise 3: Phone Book");
 
-            phoneBook["Hassan"] = "01055555555";
+            //phoneBook["Hassan"] = "01055555555";
 
-            Console.WriteLine("Contacts:");
+            //Console.WriteLine("Contacts:");
 
-            foreach (KeyValuePair<string, string> contact in phoneBook)
-            {
-                Console.WriteLine(contact.Key + " = " + contact.Value);
-            }
+            //foreach (KeyValuePair<string, string> contact in phoneBook)
+            //{
+            //    Console.WriteLine(contact.Key + " = " + contact.Value);
+            //}
 
-            try
-            {
-                phoneBook.Add("Ahmed", "01099999999");
-            }
-            catch (ArgumentException ex)
-            {
-                Console.WriteLine("Add Exception: " + ex.Message);
-            }
+            //try
+            //{
+            //    phoneBook.Add("Ahmed", "01099999999");
+            //}
+            //catch (ArgumentException ex)
+            //{
+            //    Console.WriteLine("Add Exception: " + ex.Message);
+            //}
 
-            bool tryAddResult = phoneBook.TryAdd("Ahmed", "01088888888");
+            //bool tryAddResult = phoneBook.TryAdd("Ahmed", "01088888888");
 
-            Console.WriteLine("TryAdd Result: " + tryAddResult);
+            //Console.WriteLine("TryAdd Result: " + tryAddResult);
 
-            bool contactExists = phoneBook.ContainsKey("Omar");
+            //bool contactExists = phoneBook.ContainsKey("Omar");
 
-            Console.WriteLine("Omar Exists: " + contactExists);
+            //Console.WriteLine("Omar Exists: " + contactExists);
 
-            string phoneNumber;
+            //string phoneNumber;
 
-            if (phoneBook.TryGetValue("Omar", out phoneNumber))
-            {
-                Console.WriteLine("Omar Phone: " + phoneNumber);
-            }
-            else
-            {
-                Console.WriteLine("Omar Phone: Not Found");
-            }
+            //if (phoneBook.TryGetValue("Omar", out phoneNumber))
+            //{
+            //    Console.WriteLine("Omar Phone: " + phoneNumber);
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Omar Phone: Not Found");
+            //}
 
-            Console.WriteLine("Keys:");
+            //Console.WriteLine("Keys:");
 
-            foreach (string key in phoneBook.Keys)
-            {
-                Console.Write(key + " ");
-            }
+            //foreach (string key in phoneBook.Keys)
+            //{
+            //    Console.Write(key + " ");
+            //}
 
-            Console.WriteLine();
+            //Console.WriteLine();
 
-            Console.WriteLine("Values:");
+            //Console.WriteLine("Values:");
 
-            foreach (string value in phoneBook.Values)
-            {
-                Console.Write(value + " ");
-            }
+            //foreach (string value in phoneBook.Values)
+            //{
+            //    Console.Write(value + " ");
+            //}
 
-            Console.WriteLine();
-            Console.WriteLine();
+            //Console.WriteLine();
+            //Console.WriteLine();
 
             #endregion
 
