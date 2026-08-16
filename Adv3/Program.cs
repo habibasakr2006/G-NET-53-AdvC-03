@@ -234,70 +234,70 @@ namespace Adv3
 
             #region Exercise 4
 
-            HashSet<string> emails = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
+            //HashSet<string> emails = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
 
-            emails.Add("ahmed@test.com");
-            emails.Add("AHMED@test.com");
-            emails.Add("sara@test.com");
-            emails.Add("Sara@Test.Com");
+            //emails.Add("ahmed@test.com");
+            //emails.Add("AHMED@test.com");
+            //emails.Add("sara@test.com");
+            //emails.Add("Sara@Test.Com");
 
-            Console.WriteLine("Exercise 4: Unique Email Validator");
+            //Console.WriteLine("Exercise 4: Unique Email Validator");
 
-            Console.WriteLine("Emails:");
+            //Console.WriteLine("Emails:");
 
-            foreach (string email in emails)
-            {
-                Console.WriteLine(email);
-            }
+            //foreach (string email in emails)
+            //{
+            //    Console.WriteLine(email);
+            //}
 
-            Console.WriteLine("Count: " + emails.Count);
+            //Console.WriteLine("Count: " + emails.Count);
 
-            HashSet<int> setA = new HashSet<int> { 1, 2, 3, 4, 5 };
-            HashSet<int> setB = new HashSet<int> { 4, 5, 6, 7, 8 };
+            //HashSet<int> setA = new HashSet<int> { 1, 2, 3, 4, 5 };
+            //HashSet<int> setB = new HashSet<int> { 4, 5, 6, 7, 8 };
 
-            HashSet<int> unionSet = new HashSet<int>(setA);
-            unionSet.UnionWith(setB);
+            //HashSet<int> unionSet = new HashSet<int>(setA);
+            //unionSet.UnionWith(setB);
 
-            Console.WriteLine("UnionWith Result:");
+            //Console.WriteLine("UnionWith Result:");
 
-            foreach (int number in unionSet)
-            {
-                Console.Write(number + " ");
-            }
+            //foreach (int number in unionSet)
+            //{
+            //    Console.Write(number + " ");
+            //}
 
-            Console.WriteLine();
+            //Console.WriteLine();
 
-            HashSet<int> intersectSet = new HashSet<int>(setA);
-            intersectSet.IntersectWith(setB);
+            //HashSet<int> intersectSet = new HashSet<int>(setA);
+            //intersectSet.IntersectWith(setB);
 
-            Console.WriteLine("IntersectWith Result:");
+            //Console.WriteLine("IntersectWith Result:");
 
-            foreach (int number in intersectSet)
-            {
-                Console.Write(number + " ");
-            }
+            //foreach (int number in intersectSet)
+            //{
+            //    Console.Write(number + " ");
+            //}
 
-            Console.WriteLine();
+            //Console.WriteLine();
 
-            HashSet<int> exceptSet = new HashSet<int>(setA);
-            exceptSet.ExceptWith(setB);
+            //HashSet<int> exceptSet = new HashSet<int>(setA);
+            //exceptSet.ExceptWith(setB);
 
-            Console.WriteLine("ExceptWith Result:");
+            //Console.WriteLine("ExceptWith Result:");
 
-            foreach (int number in exceptSet)
-            {
-                Console.Write(number + " ");
-            }
+            //foreach (int number in exceptSet)
+            //{
+            //    Console.Write(number + " ");
+            //}
 
-            Console.WriteLine();
+            //Console.WriteLine();
 
-            HashSet<int> subset = new HashSet<int> { 1, 2 };
+            //HashSet<int> subset = new HashSet<int> { 1, 2 };
 
-            bool isSubset = subset.IsSubsetOf(setA);
+            //bool isSubset = subset.IsSubsetOf(setA);
 
-            Console.WriteLine("{1, 2} Is Subset Of Set A: " + isSubset);
+            //Console.WriteLine("{1, 2} Is Subset Of Set A: " + isSubset);
 
-            Console.WriteLine();
+            //Console.WriteLine();
 
             #endregion
 
