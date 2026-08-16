@@ -303,50 +303,50 @@ namespace Adv3
 
             #region Exercise 5
 
-            Queue<string> printQueue = new Queue<string>();
+            //Queue<string> printQueue = new Queue<string>();
 
-            printQueue.Enqueue("Report.pdf");
-            printQueue.Enqueue("Invoice.pdf");
-            printQueue.Enqueue("Letter.docx");
-            printQueue.Enqueue("Resume.pdf");
-            printQueue.Enqueue("Photo.jpg");
+            //printQueue.Enqueue("Report.pdf");
+            //printQueue.Enqueue("Invoice.pdf");
+            //printQueue.Enqueue("Letter.docx");
+            //printQueue.Enqueue("Resume.pdf");
+            //printQueue.Enqueue("Photo.jpg");
 
-            Console.WriteLine("Exercise 5: Print Queue Simulator");
+            //Console.WriteLine("Exercise 5: Print Queue Simulator");
 
-            Console.WriteLine("Queue Contents:");
+            //Console.WriteLine("Queue Contents:");
 
-            foreach (string document in printQueue)
-            {
-                Console.Write(document + " ");
-            }
+            //foreach (string document in printQueue)
+            //{
+            //    Console.Write(document + " ");
+            //}
 
-            Console.WriteLine();
-            Console.WriteLine("Count: " + printQueue.Count);
+            //Console.WriteLine();
+            //Console.WriteLine("Count: " + printQueue.Count);
 
-            Console.WriteLine("Next Document: " + printQueue.Peek());
+            //Console.WriteLine("Next Document: " + printQueue.Peek());
 
-            while (printQueue.Count > 0)
-            {
-                string document = printQueue.Dequeue();
-                Console.WriteLine("Printing: " + document);
-            }
+            //while (printQueue.Count > 0)
+            //{
+            //    string document = printQueue.Dequeue();
+            //    Console.WriteLine("Printing: " + document);
+            //}
 
-            string remainingDocument;
+            //string remainingDocument;
 
-            bool tryDequeueResult = printQueue.TryDequeue(out remainingDocument);
+            //bool tryDequeueResult = printQueue.TryDequeue(out remainingDocument);
 
-            Console.WriteLine("TryDequeue Result: " + tryDequeueResult);
+            //Console.WriteLine("TryDequeue Result: " + tryDequeueResult);
 
-            if (tryDequeueResult)
-            {
-                Console.WriteLine("Document: " + remainingDocument);
-            }
-            else
-            {
-                Console.WriteLine("Queue is empty.");
-            }
+            //if (tryDequeueResult)
+            //{
+            //    Console.WriteLine("Document: " + remainingDocument);
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Queue is empty.");
+            //}
 
-            Console.WriteLine();
+            //Console.WriteLine();
 
             #endregion
 
