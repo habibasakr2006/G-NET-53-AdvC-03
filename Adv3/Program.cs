@@ -352,44 +352,44 @@ namespace Adv3
 
             #region Exercise 6
 
-            Stack<string> browserHistory = new Stack<string>();
+            //Stack<string> browserHistory = new Stack<string>();
 
-            browserHistory.Push("google.com");
-            browserHistory.Push("github.com");
-            browserHistory.Push("stackoverflow.com");
-            browserHistory.Push("youtube.com");
-            browserHistory.Push("claude.ai");
+            //browserHistory.Push("google.com");
+            //browserHistory.Push("github.com");
+            //browserHistory.Push("stackoverflow.com");
+            //browserHistory.Push("youtube.com");
+            //browserHistory.Push("claude.ai");
 
-            Console.WriteLine("Exercise 6: Browser History");
+            //Console.WriteLine("Exercise 6: Browser History");
 
-            Console.WriteLine("Current Page: " + browserHistory.Peek());
+            //Console.WriteLine("Current Page: " + browserHistory.Peek());
 
-            Console.WriteLine("Going Back:");
+            //Console.WriteLine("Going Back:");
 
-            for (int i = 0; i < 3; i++)
-            {
-                string page = browserHistory.Pop();
-                Console.WriteLine("Leaving: " + page);
-            }
+            //for (int i = 0; i < 3; i++)
+            //{
+            //    string page = browserHistory.Pop();
+            //    Console.WriteLine("Leaving: " + page);
+            //}
 
-            Console.WriteLine("Current Page After Going Back: " + browserHistory.Peek());
+            //Console.WriteLine("Current Page After Going Back: " + browserHistory.Peek());
 
-            string poppedPage;
+            //string poppedPage;
 
-            bool tryPopResult = browserHistory.TryPop(out poppedPage);
+            //bool tryPopResult = browserHistory.TryPop(out poppedPage);
 
-            Console.WriteLine("TryPop Result: " + tryPopResult);
+            //Console.WriteLine("TryPop Result: " + tryPopResult);
 
-            if (tryPopResult)
-            {
-                Console.WriteLine("Popped Page: " + poppedPage);
-            }
-            else
-            {
-                Console.WriteLine("Stack is empty.");
-            }
+            //if (tryPopResult)
+            //{
+            //    Console.WriteLine("Popped Page: " + poppedPage);
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Stack is empty.");
+            //}
 
-            Console.WriteLine();
+            //Console.WriteLine();
 
             #endregion
         }
