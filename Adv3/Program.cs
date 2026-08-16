@@ -110,56 +110,56 @@ namespace Adv3
 
             #region Exercise 2
 
-            SortedDictionary<int, string> leaderboard = new SortedDictionary<int, string>();
+            //SortedDictionary<int, string> leaderboard = new SortedDictionary<int, string>();
 
-            leaderboard.Add(500, "Ahmed");
-            leaderboard.Add(200, "Sara");
-            leaderboard.Add(800, "Ali");
-            leaderboard.Add(350, "Mona");
+            //leaderboard.Add(500, "Ahmed");
+            //leaderboard.Add(200, "Sara");
+            //leaderboard.Add(800, "Ali");
+            //leaderboard.Add(350, "Mona");
 
-            Console.WriteLine("Exercise 2: Leaderboard");
+            //Console.WriteLine("Exercise 2: Leaderboard");
 
-            foreach (KeyValuePair<int, string> player in leaderboard)
-            {
-                Console.WriteLine(player.Key + " = " + player.Value);
-            }
+            //foreach (KeyValuePair<int, string> player in leaderboard)
+            //{
+            //    Console.WriteLine(player.Key + " = " + player.Value);
+            //}
 
-            int firstKey = 0;
-            string firstValue = "";
+            //int firstKey = 0;
+            //string firstValue = "";
 
-            foreach (KeyValuePair<int, string> player in leaderboard)
-            {
-                firstKey = player.Key;
-                firstValue = player.Value;
-                break;
-            }
+            //foreach (KeyValuePair<int, string> player in leaderboard)
+            //{
+            //    firstKey = player.Key;
+            //    firstValue = player.Value;
+            //    break;
+            //}
 
-            Console.WriteLine("First Key: " + firstKey);
-            Console.WriteLine("First Value: " + firstValue);
+            //Console.WriteLine("First Key: " + firstKey);
+            //Console.WriteLine("First Value: " + firstValue);
 
-            Console.WriteLine("Score 500 Exists: " + leaderboard.ContainsKey(500));
+            //Console.WriteLine("Score 500 Exists: " + leaderboard.ContainsKey(500));
 
-            string player999;
+            //string player999;
 
-            if (leaderboard.TryGetValue(999, out player999))
-            {
-                Console.WriteLine("Player with Score 999: " + player999);
-            }
-            else
-            {
-                Console.WriteLine("Player with Score 999: Not Found");
-            }
+            //if (leaderboard.TryGetValue(999, out player999))
+            //{
+            //    Console.WriteLine("Player with Score 999: " + player999);
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Player with Score 999: Not Found");
+            //}
 
-            leaderboard.Remove(200);
+            //leaderboard.Remove(200);
 
-            Console.WriteLine("Updated Leaderboard:");
+            //Console.WriteLine("Updated Leaderboard:");
 
-            foreach (KeyValuePair<int, string> player in leaderboard)
-            {
-                Console.WriteLine(player.Key + " = " + player.Value);
-            }
+            //foreach (KeyValuePair<int, string> player in leaderboard)
+            //{
+            //    Console.WriteLine(player.Key + " = " + player.Value);
+            //}
 
-            Console.WriteLine();
+            //Console.WriteLine();
 
             #endregion
 
