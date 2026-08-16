@@ -9,102 +9,102 @@ namespace Adv3
         {
             #region Exercise 1
 
-            List<int> grades = new List<int> { 85, 92, 78, 95, 88, 70, 100, 65 };
+            //List<int> grades = new List<int> { 85, 92, 78, 95, 88, 70, 100, 65 };
 
-            Console.WriteLine("Exercise 1: Student Grade Manager");
+            //Console.WriteLine("Exercise 1: Student Grade Manager");
 
-            Console.WriteLine("Grades:");
-            foreach (int grade in grades)
-            {
-                Console.Write(grade + " ");
-            }
+            //Console.WriteLine("Grades:");
+            //foreach (int grade in grades)
+            //{
+            //    Console.Write(grade + " ");
+            //}
 
-            Console.WriteLine();
-            Console.WriteLine("Count: " + grades.Count);
-            Console.WriteLine("First Grade: " + grades[0]);
-            Console.WriteLine("Last Grade: " + grades[grades.Count - 1]);
+            //Console.WriteLine();
+            //Console.WriteLine("Count: " + grades.Count);
+            //Console.WriteLine("First Grade: " + grades[0]);
+            //Console.WriteLine("Last Grade: " + grades[grades.Count - 1]);
 
-            grades.Sort();
+            //grades.Sort();
 
-            Console.WriteLine("Sorted Grades:");
-            foreach (int grade in grades)
-            {
-                Console.Write(grade + " ");
-            }
+            //Console.WriteLine("Sorted Grades:");
+            //foreach (int grade in grades)
+            //{
+            //    Console.Write(grade + " ");
+            //}
 
-            Console.WriteLine();
+            //Console.WriteLine();
 
-            int firstAbove90 = 0;
+            //int firstAbove90 = 0;
 
-            foreach (int grade in grades)
-            {
-                if (grade > 90)
-                {
-                    firstAbove90 = grade;
-                    break;
-                }
-            }
+            //foreach (int grade in grades)
+            //{
+            //    if (grade > 90)
+            //    {
+            //        firstAbove90 = grade;
+            //        break;
+            //    }
+            //}
 
-            Console.WriteLine("First Grade Above 90: " + firstAbove90);
+            //Console.WriteLine("First Grade Above 90: " + firstAbove90);
 
-            List<int> failingGrades = new List<int>();
+            //List<int> failingGrades = new List<int>();
 
-            foreach (int grade in grades)
-            {
-                if (grade < 75)
-                {
-                    failingGrades.Add(grade);
-                }
-            }
+            //foreach (int grade in grades)
+            //{
+            //    if (grade < 75)
+            //    {
+            //        failingGrades.Add(grade);
+            //    }
+            //}
 
-            Console.WriteLine("Failing Grades:");
+            //Console.WriteLine("Failing Grades:");
 
-            foreach (int grade in failingGrades)
-            {
-                Console.Write(grade + " ");
-            }
+            //foreach (int grade in failingGrades)
+            //{
+            //    Console.Write(grade + " ");
+            //}
 
-            Console.WriteLine();
+            //Console.WriteLine();
 
-            grades.RemoveAll(grade => grade < 75);
+            //grades.RemoveAll(grade => grade < 75);
 
-            Console.WriteLine("Grades After Removing Failing Grades:");
+            //Console.WriteLine("Grades After Removing Failing Grades:");
 
-            foreach (int grade in grades)
-            {
-                Console.Write(grade + " ");
-            }
+            //foreach (int grade in grades)
+            //{
+            //    Console.Write(grade + " ");
+            //}
 
-            Console.WriteLine();
+            //Console.WriteLine();
 
-            bool has100 = false;
+            //bool has100 = false;
 
-            foreach (int grade in grades)
-            {
-                if (grade == 100)
-                {
-                    has100 = true;
-                    break;
-                }
-            }
+            //foreach (int grade in grades)
+            //{
+            //    if (grade == 100)
+            //    {
+            //        has100 = true;
+            //        break;
+            //    }
+            //}
 
-            Console.WriteLine("Any Grade Equals 100: " + has100);
+            //Console.WriteLine("Any Grade Equals 100: " + has100);
 
-            List<string> gradeStrings = new List<string>();
+            //List<string> gradeStrings = new List<string>();
 
-            foreach (int grade in grades)
-            {
-                gradeStrings.Add("Grade: " + grade);
-            }
+            //foreach (int grade in grades)
+            //{
+            //    gradeStrings.Add("Grade: " + grade);
+            //}
 
-            Console.WriteLine("Grade Strings:");
+            //Console.WriteLine("Grade Strings:");
 
-            foreach (string grade in gradeStrings)
-            {
-                Console.WriteLine(grade);
-            }
+            //foreach (string grade in gradeStrings)
+            //{
+            //    Console.WriteLine(grade);
+            //}
 
-            Console.WriteLine();
+            //Console.WriteLine();
 
             #endregion
 
